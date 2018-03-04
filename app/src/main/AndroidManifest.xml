@@ -22,7 +22,7 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
-            android:value="ikqt7LeQMcMG572GtGTAfejV43IUXbYp" />
+            android:value="ZCsQIGemDNflZFV3XpaC2G2eGRNzNYiB" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -40,6 +40,23 @@
         <activity android:name=".Main2Activity">
             <intent-filter>
                 <action android:name="com.example.luisfly.Main2Activity.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CityList" />
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".MusicPlayer">
+            <intent-filter>
+                <action android:name="com.example.luisfly.MusicPlayer.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MessageShow">
+            <intent-filter>
+                <action android:name="com.example.luisfly.MessageShow.ACTION_START" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
